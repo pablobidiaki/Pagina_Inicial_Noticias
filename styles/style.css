@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+    margin: 15px 10px;
+}
+
+h2,h3,h4{
+    margin: 5px 10px;
+}
+
+p{
+    margin: 0px 10px;
+    word-spacing: 2.5px;
+    padding: 5px;
+}
+
+button{
+    margin: 15px 10px 40px 10px;
+    background-color: #FA7F72;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+}
+
+h3{
+    padding: 10px;
+    color: rgb(248, 225, 91);
+}
+
+h4{
+    font-weight: bold;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#burguer a{
+    color: black;
+}
+
+#burguer ul{
+    flex-direction: column;
+    text-align: end;
+}
+
+.visivel{
+    display: none;
+}
+
+.menu{
+    margin-top: 25px;
+}
+
+.imgPrincipal{
+    text-align: center;
+    margin: 15px 10px;
+    width: 340px;
+    height: 340px;
+}
+
+.novidades{
+    background-color: rgb(0, 0, 32);
+    margin: 5px 10px;
+}
+
+.novidade{
+    color: white;
+    margin: 10px;
+}
+
+.novidades h3{
+    font-size: 1.4rem;
+}
+
+.novidade h4{
+    font-size: 1.2rem;
+}
+
+.notFinal{
+    margin:35px 10px 20px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.notFinal img{
+    width: 40%;
+}
+
+.informacoes{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.informacoes h3{
+    color: lightgray;
+    margin: 0px;
+    font-size: 40px;
+}
