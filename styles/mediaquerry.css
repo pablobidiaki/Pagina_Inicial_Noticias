@@ -1,0 +1,18 @@
+@media (min-width: 500px) and (max-width:1023px) {
+    .novidades{
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .notFinal img{
+        width: 40%;
+        height: 100%;
+    }
+
+
+}
