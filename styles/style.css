@@ -67,7 +67,25 @@ hr{
 }
 
 .visivel{
-    display: none;
+    display:none;
+}
+
+#burguer{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#burguer li{
+    text-align: center;
+}
+
+#burguer .fechar{
+    text-align: end;
+}
+
+#burguer li a {
+    color: black;
 }
 
 .menu{
@@ -75,10 +93,9 @@ hr{
 }
 
 .imgPrincipal{
-    text-align: center;
-    margin: 15px 10px;
-    width: 340px;
-    height: 340px;
+    margin: 15px 0px;
+    width: 99%;
+    height: 99%;
 }
 
 .novidades{
@@ -118,4 +135,12 @@ hr{
     color: lightgray;
     margin: 0px;
     font-size: 40px;
+}
+
+.teste{
+    display: none;  
+}
+
+.imagem{
+    text-align: center;
 }
