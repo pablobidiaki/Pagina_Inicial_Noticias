@@ -37,6 +37,11 @@
         color: black;
         margin: 10px;
         font-size: .8rem;
+        transition: .3s;
+    }
+
+    .nav-bar ul li a:hover{
+        color: #FA7F72;
     }
 
     .nav-bar ul li {
@@ -103,6 +108,12 @@
 
     .notCentro button{
         margin-left: 25px;
+        transition: .5s;
     }
+
+    .notCentro button:hover{
+        background-color: rgb(0, 0, 32);
+    }
+
 
 }
