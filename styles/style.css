@@ -145,3 +145,7 @@ hr{
 .imagem{
     text-align: center;
 }
+
+.nav-bar{
+    display: none;
+}

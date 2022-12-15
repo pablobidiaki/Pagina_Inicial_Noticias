@@ -29,6 +29,10 @@
         display: none;
     }
 
+    .nav-bar{
+        display: flex;
+    }
+
     .nav-bar ul li a{
         color: black;
         margin: 10px;
